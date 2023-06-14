@@ -1,0 +1,47 @@
+header {
+    position: sticky;
+}
+
+input[type="search"] {
+    border: none;
+    border-width: 2px;
+    margin-left: 35px;
+}
+
+header .nav-link {
+    color: gray;
+}
+
+header .nav-link:hover, header .nav-link:focus {
+    color: black;
+}
+
+header .nav-link:active {
+    color: yellow;
+}
+
+header .nav {
+    gap: 10px;
+}
+
+header .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -30px;
+}
+
+.plus-badge {
+    font-style: 10px;
+    padding: 5px 10px;
+    background: linear-gradient(90deg,#ff5c4d,#eb469f 30%,#8341ef 75%,#3f68f9);
+    color: #fff;
+    margin-left: 100px;
+}
+
+.albums .card:hover {
+    outline: 4px solid #ffdb4d;
+}
+
+.albums a {
+    color: grey;
+}
